@@ -23,7 +23,6 @@ html, body {
 .nav {
   list-style-type: none;
   margin: 0;
-  padding: 20px 0;
 }
 
 .nav li {
@@ -40,26 +39,30 @@ html, body {
   position: relative;
   top: 180px;
   text-align: center;
+  font-weight: 600;
+
 }
 
 .main h1 {
   color: #BFBCB8;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 90px;
   margin-top: 0;
   margin-bottom: 80px;
   text-transform: uppercase;
 }
 
 .btn-main {
-  background-color: #333;
+  background-color:;
+  border: 2px solid #fff;
+
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 12px 35px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -120,6 +123,7 @@ html, body {
 
 .footer p {
   font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
   font-size: 11px;
+  font-style: italic;
+  text-align: center;
 }
