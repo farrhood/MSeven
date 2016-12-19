@@ -53,6 +53,12 @@ html, body {
   text-transform: uppercase;
 }
 
+.button:hover {
+    background-color: #333;
+    color: white;
+    text-decoration: none
+}
+
 .btn-main {
   border: 2px solid #fff;
 
@@ -62,7 +68,6 @@ html, body {
   font-size: 18px;
   letter-spacing: 1.3px;
   padding: 12px 35px;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -74,7 +79,6 @@ html, body {
   font-size: 10px;
   letter-spacing: 1.3px;
   padding: 10px 20px;
-  text-decoration: none;
   text-transform: uppercase;  
   display: inline-block;
   margin-bottom: 20px;      
